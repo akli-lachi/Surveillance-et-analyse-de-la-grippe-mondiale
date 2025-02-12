@@ -1,0 +1,35 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-FR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup Source
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup Main
+
+	annotation PBI_QueryGroupOrder = 1
+
+queryGroup verification
+
+	annotation PBI_QueryGroupOrder = 2
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.139.2054.0 (24.12)+334ca1c95b576cc53924655643b0d36f21caac55
+
+annotation PBI_QueryOrder = ["InfluenzaData","InfluenzaData_2022-2024","KPI","InfluenzaData_2022-2024-gerer les null","InfluenzaData_2022-2024-verif"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table InfluenzaData_2022-2024
+ref table KPI
+ref table Datum
+ref table SousTypes
+
+ref cultureInfo fr-FR
+

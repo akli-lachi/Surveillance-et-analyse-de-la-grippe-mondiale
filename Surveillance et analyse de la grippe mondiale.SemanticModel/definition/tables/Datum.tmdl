@@ -1,0 +1,91 @@
+table Datum
+	lineageTag: 0035a84f-887d-4eea-8c78-b4305e48e3ce
+	dataCategory: Time
+
+	column Date
+		isKey
+		formatString: Short Date
+		lineageTag: 7fbcbdc8-a00d-4ed0-84ba-4db9045a61cd
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Année
+		formatString: 0
+		displayFolder: Temporel
+		lineageTag: 80663d13-d0b6-4534-974b-ee23efdf09ab
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Année]
+
+		annotation SummarizationSetBy = User
+
+	column Mois
+		displayFolder: Temporel
+		lineageTag: 670b0d04-e9de-4417-a0fb-dba2773ad205
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mois]
+		sortByColumn: Numero_Mois
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mois_Complet
+		isHidden
+		lineageTag: d4442af4-7e0a-45a3-b9dc-2b1ec7c01496
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mois_Complet]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Numero_Mois
+		isHidden
+		formatString: 0
+		displayFolder: Temporel
+		lineageTag: 068b9f50-11f7-4064-885f-268f4cac7c4e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Numero_Mois]
+
+		annotation SummarizationSetBy = User
+
+	column Année-Mois
+		displayFolder: Temporel
+		lineageTag: 31247e23-15d6-454d-adf4-c021437c4ae0
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Année-Mois]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semaine
+		isHidden
+		formatString: 0
+		lineageTag: 681073a3-ca50-4b16-9d65-abb06f010ea3
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Semaine]
+
+		annotation SummarizationSetBy = User
+
+	partition Datum = calculated
+		mode: import
+		source = ```
+				
+				ADDCOLUMNS (
+				    CALENDAR (DATE(2022,1,1), DATE(2024,12,31)),  
+				    "Année", YEAR([Date]),
+				    "Mois", FORMAT([Date], "MMM"),  
+				    "Mois_Complet", FORMAT([Date], "MMMM"),  
+				    "Numero_Mois", MONTH([Date]),  
+				    "Année-Mois", FORMAT([Date], "YYYY-MM"), 
+				    "Semaine", WEEKNUM([Date], 2)  
+				)
+				
+				```
+
+	annotation PBI_Id = 5e4edafbe23647d5a610a52ba8378846
+

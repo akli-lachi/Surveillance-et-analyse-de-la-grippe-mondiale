@@ -1,0 +1,271 @@
+table InfluenzaData_2022-2024
+	lineageTag: 26daebab-12b4-4f99-bbb1-d0568d5cc22a
+
+	column OMS_Region
+		dataType: string
+		displayFolder: Géographique
+		lineageTag: de9c3a27-9815-4829-a69f-b4b48fb11a73
+		summarizeBy: none
+		sourceColumn: OMS_Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Saison
+		dataType: string
+		displayFolder: saisonnalité
+		lineageTag: 4ce96587-e546-4ce1-b42c-656f73b06737
+		summarizeBy: none
+		sourceColumn: Saison
+
+		annotation SummarizationSetBy = Automatic
+
+	column HEMISPHERE
+		dataType: string
+		displayFolder: Géographique
+		lineageTag: 7cdcfeae-a820-4f5d-a976-8170cb3de4a2
+		summarizeBy: none
+		sourceColumn: HEMISPHERE
+
+		annotation SummarizationSetBy = Automatic
+
+	column Pays
+		dataType: string
+		displayFolder: Géographique
+		lineageTag: 65509730-d8e2-4d38-aa9e-897f75f574e5
+		summarizeBy: none
+		sourceColumn: Pays
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date_Observation
+		dataType: dateTime
+		isHidden
+		formatString: Short Date
+		displayFolder: saisonnalité
+		lineageTag: cefca499-4cab-4d9f-b2c9-11d0b94be4e0
+		summarizeBy: none
+		sourceColumn: Date_Observation
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Provenance
+		dataType: string
+		displayFolder: Transmission
+		lineageTag: 0b269fe1-4650-4f8d-9b54-57c4885d93df
+		summarizeBy: none
+		sourceColumn: Provenance
+
+		annotation SummarizationSetBy = Automatic
+
+	column Echantillons_Reçus
+		dataType: int64
+		formatString: 0
+		displayFolder: Résultats
+		lineageTag: 05d12efb-db27-46c6-aa00-ed88aa23dc16
+		summarizeBy: none
+		sourceColumn: Echantillons_Reçus
+
+		annotation SummarizationSetBy = User
+
+	column Virus_A(H1N1)
+		dataType: int64
+		formatString: 0
+		displayFolder: Épidémiologique
+		lineageTag: ff55193b-8ec0-4a90-ad58-cced800f3661
+		summarizeBy: none
+		sourceColumn: Virus_A(H1N1)
+
+		annotation SummarizationSetBy = User
+
+	column Virus_A(H1)
+		dataType: int64
+		formatString: 0
+		displayFolder: Épidémiologique
+		lineageTag: 265e7684-6d0e-4348-bd6a-67684f68df81
+		summarizeBy: none
+		sourceColumn: Virus_A(H1)
+
+		annotation SummarizationSetBy = User
+
+	column Virus_A(H3)
+		dataType: int64
+		formatString: 0
+		displayFolder: Épidémiologique
+		lineageTag: c5e80cc7-3081-4472-9e49-19a01cd22c87
+		summarizeBy: none
+		sourceColumn: Virus_A(H3)
+
+		annotation SummarizationSetBy = User
+
+	column Virus_A_NonSousTypé
+		dataType: int64
+		formatString: 0
+		displayFolder: Épidémiologique
+		lineageTag: f552e9e9-da74-4aa4-8625-e4f83312a81d
+		summarizeBy: none
+		sourceColumn: Virus_A_NonSousTypé
+
+		annotation SummarizationSetBy = User
+
+	column Positif_B
+		dataType: int64
+		formatString: 0
+		displayFolder: Résultats
+		lineageTag: d52a19f5-676b-4247-a9eb-7c5c9a3c457a
+		summarizeBy: none
+		sourceColumn: Positif_B
+
+		annotation SummarizationSetBy = User
+
+	column Positif_Total
+		dataType: int64
+		formatString: 0
+		displayFolder: Résultats
+		lineageTag: 56eef1b1-b47f-4375-9f23-407a9a4d557e
+		summarizeBy: none
+		sourceColumn: Positif_Total
+
+		annotation SummarizationSetBy = User
+
+	column Négatifs
+		dataType: int64
+		formatString: 0
+		displayFolder: Résultats
+		lineageTag: 4ec25971-3ee3-420b-a3c2-bd6bcbc7a508
+		summarizeBy: none
+		sourceColumn: Négatifs
+
+		annotation SummarizationSetBy = User
+
+	column Niveau_Propagation
+		dataType: string
+		displayFolder: Transmission
+		lineageTag: 09dd22db-dfab-4c27-afe6-b9306aa71840
+		summarizeBy: none
+		sourceColumn: Niveau_Propagation
+
+		annotation SummarizationSetBy = Automatic
+
+	column Echantillons_Analysés
+		dataType: int64
+		formatString: 0
+		displayFolder: Résultats
+		lineageTag: c3f1f6ae-97c3-4199-aba4-cb5a8e32b4ea
+		summarizeBy: none
+		sourceColumn: Echantillons_Analysés
+
+		annotation SummarizationSetBy = User
+
+	partition InfluenzaData_2022-2024 = m
+		mode: import
+		queryGroup: Main
+		source = ```
+				let
+				    Source = InfluenzaData,
+				
+				    // 📌 Filtrage des années 2022, 2023 et 2024
+				    #"Lignes filtrées" = Table.SelectRows(Source, each ([ISO_YEAR] = 2022 or [ISO_YEAR] = 2023 or [ISO_YEAR] = 2024)),
+				
+				    // 📌 Sélection des colonnes essentielles
+				    #"Colonnes sélectionnées" = Table.SelectColumns(#"Lignes filtrées",
+				        {"WHOREGION", "FLUSEASON", "HEMISPHERE", "COUNTRY_AREA_TERRITORY", 
+				         "ISO_WEEKSTARTDATE", "ORIGIN_SOURCE", "SPEC_PROCESSED_NB", 
+				         "SPEC_RECEIVED_NB", "AH1N12009", "AH1", "AH3", "ANOTSUBTYPED", "INF_B", 
+				         "INF_ALL", "INF_NEGATIVE", "ILI_ACTIVITY"}),
+				
+				    // 📌 Renommage des colonnes
+				    #"Colonnes renommées" = Table.RenameColumns(#"Colonnes sélectionnées",{
+				        {"WHOREGION", "OMS_Region"},
+				        {"COUNTRY_AREA_TERRITORY", "Pays"},
+				        {"ISO_WEEKSTARTDATE", "Date_Observation"},
+				        {"ORIGIN_SOURCE", "Provenance"},
+				        {"SPEC_PROCESSED_NB", "Echantillons_Analysés"},
+				        {"SPEC_RECEIVED_NB", "Echantillons_Reçus"},
+				        {"AH1N12009", "Virus_A(H1N1)"},
+				        {"AH1", "Virus_A(H1)"},
+				        {"AH3", "Virus_A(H3)"},
+				        {"ANOTSUBTYPED", "Virus_A_NonSousTypé"},
+				        {"FLUSEASON", "Saison"},
+				        {"INF_B", "Positif_B"},
+				        {"INF_ALL", "Positif_Total"},
+				        {"INF_NEGATIVE", "Négatifs"}
+				    }),
+				
+				    // 📌 Conversion des colonnes en nombre pour éviter les erreurs de type
+				    #"Conversion en nombre" = Table.TransformColumnTypes(#"Colonnes renommées",{
+				        {"Echantillons_Reçus", Int64.Type}, 
+				        {"Echantillons_Analysés", Int64.Type}
+				    }),
+				
+				    // 📌 Gestion des NULLS
+				    #"Correction Nulls" = Table.TransformColumns(#"Conversion en nombre", {
+				        {"Echantillons_Reçus", each if _ = null then 0 else _, Int64.Type},
+				        {"Echantillons_Analysés", each if _ = null then 0 else _, Int64.Type}
+				    }),
+				
+				       // 📌 Suppression des lignes incohérentes où "Echantillons_Reçus" est NULL ou 0
+				    #"Suppression lignes inutiles" = Table.SelectRows(#"Correction Nulls", each 
+				    ([Echantillons_Reçus] <> 0 and [Echantillons_Reçus] <> null) and 
+				    ([Echantillons_Analysés] <> 0 and [Echantillons_Analysés] <> null)
+				    ),
+				
+				      
+				    // 📌 Correction des incohérences : si "Echantillons_Analysés" > "Echantillons_Reçus", on remplace
+				    #"Correction incohérences" = Table.AddColumn(#"Suppression lignes inutiles", "Echantillons_Analysés_Corrigé",
+				        each if [Echantillons_Analysés] > [Echantillons_Reçus] then [Echantillons_Reçus] else [Echantillons_Analysés], Int64.Type),
+				
+				    // 📌 Suppression de l'ancienne colonne et renommage
+				    #"Suppression colonne originale" = Table.RemoveColumns(#"Correction incohérences", {"Echantillons_Analysés"}),
+				    #"Renommage final" = Table.RenameColumns(#"Suppression colonne originale", {{"Echantillons_Analysés_Corrigé", "Echantillons_Analysés"}}),
+				
+				    // 📌 Remplacement des valeurs nulles pour les autres colonnes
+				    #"Valeur remplacée1" = Table.ReplaceValue(#"Renommage final", null, 0, Replacer.ReplaceValue, 
+				        {"Virus_A(H1N1)", "Positif_B", "Positif_Total", "Négatifs"}),
+				
+				    #"Valeur remplacée2" = Table.ReplaceValue(#"Valeur remplacée1", "", "0", Replacer.ReplaceValue, 
+				        {"Virus_A(H1)", "Virus_A(H3)", "Virus_A_NonSousTypé", "ILI_ACTIVITY"}),
+				
+				    // 📌 Modification des types après correction
+				    #"Type modifié" = Table.TransformColumnTypes(#"Valeur remplacée2",{
+				        {"Négatifs", Int64.Type}, 
+				        {"Positif_Total", Int64.Type}, 
+				        {"Positif_B", Int64.Type}, 
+				        {"Virus_A_NonSousTypé", Int64.Type}, 
+				        {"Virus_A(H3)", Int64.Type}, 
+				        {"Virus_A(H1)", Int64.Type}, 
+				        {"Virus_A(H1N1)", Int64.Type}, 
+				        {"Echantillons_Reçus", Int64.Type}, 
+				        {"Echantillons_Analysés", Int64.Type}
+				    }),
+				
+				    // 📌 Ajout de la colonne Niveau_Propagation avec valeurs textuelles
+				    #"Ajout Niveau_Propagation" = Table.AddColumn(#"Type modifié", "Niveau_Propagation", each 
+				        if [ILI_ACTIVITY] = "0" then "Aucune activité" 
+				        else if [ILI_ACTIVITY] = "1" then "Activité sporadique" 
+				        else if [ILI_ACTIVITY] = "2" then "Début localisé" 
+				        else if [ILI_ACTIVITY] = "3" then "Propagation régionale" 
+				        else if [ILI_ACTIVITY] = "4" then "Propagation étendue" 
+				        else if [ILI_ACTIVITY] = "5" then "Niveau épidémique" 
+				        else if [ILI_ACTIVITY] = "6" then "Propagation pandémique" 
+				        else null),
+				
+				    // 📌 Suppression de la colonne ILI_ACTIVITY (inutile après transformation)
+				    #"Colonnes supprimées" = Table.RemoveColumns(#"Ajout Niveau_Propagation",{"ILI_ACTIVITY"}),
+				
+				    // 📌 Réorganisation des colonnes pour plus de clarté
+				    #"Colonnes permutées" = Table.ReorderColumns(#"Colonnes supprimées",
+				        {"OMS_Region", "Saison", "HEMISPHERE", "Pays", "Date_Observation", "Provenance", 
+				         "Echantillons_Analysés", "Echantillons_Reçus", "Virus_A(H1N1)", "Virus_A(H1)", "Virus_A(H3)", 
+				         "Virus_A_NonSousTypé", "Positif_B", "Positif_Total", "Négatifs", "Niveau_Propagation"})
+				in
+				    #"Colonnes permutées"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

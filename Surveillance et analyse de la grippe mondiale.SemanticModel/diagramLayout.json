@@ -1,0 +1,72 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 492,
+            "y": 192
+          },
+          "nodeIndex": "InfluenzaData_2022-2024",
+          "nodeLineageTag": "26daebab-12b4-4f99-bbb1-d0568d5cc22a",
+          "size": {
+            "height": 528,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 789,
+            "y": 161
+          },
+          "nodeIndex": "KPI",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 789,
+            "y": 75
+          },
+          "nodeIndex": "Datum",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 109,
+            "y": 0
+          },
+          "nodeIndex": "SousTypes",
+          "nodeLineageTag": "492f2c5f-6c8c-4ad0-b190-a5affa8f1119",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Toutes les tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Toutes les tables",
+  "defaultDiagram": "Toutes les tables"
+}

@@ -1,0 +1,29 @@
+table SousTypes
+	lineageTag: 492f2c5f-6c8c-4ad0-b190-a5affa8f1119
+
+	column Sous-Type
+		lineageTag: ad53f4e2-2fb4-493e-b23e-bb49432cf1a4
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Sous-Type]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SousTypes = calculated
+		mode: import
+		source = ```
+				
+				DATATABLE(
+				    "Sous-Type", STRING,
+				    {
+				        {"Virus_A(H1N1)"},
+				        {"Virus_A(H3)"},
+				        {"Virus_A_NonSousTypé"},
+				        {"Positif_B"}
+				    }
+				)
+				
+				```
+
+	annotation PBI_Id = 93545d1258c74ffd9a6d3329ea157729
+

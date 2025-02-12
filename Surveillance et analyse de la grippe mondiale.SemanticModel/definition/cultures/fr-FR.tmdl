@@ -1,0 +1,2891 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "influenza_data_2022_2024": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "influenza data 2022 2024": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "InfluenzaData_2022-2024": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "data 2022 2024": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "influenza information 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "influenza fact 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "influenza info 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "influenza statistic 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "information 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "influenza document 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "influenza figure 2022 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.OMS_region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "OMS_Region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "OMS region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OM region": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "OMS_Region": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "region": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "om location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "om province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "om area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "om district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "om section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "om zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "om continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.saison": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Saison"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "saison": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.hemisphere": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "HEMISPHERE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hemisphere": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.pay": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Pays"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pay": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reimbursement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "remuneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emolument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stipend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "wage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "recompense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hire": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.date_observation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Date_Observation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date observation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Date_Observation": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "observation": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "moment observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "date opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date reflection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date statement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reflection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "statement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "date remark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "influenza_data_2022_2024.provenance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Provenance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "provenance": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.echantillons_reçus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Echantillons_Reçus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "echantillons reçus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "echantillon reçus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Echantillons_Reçus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.Virus_AH1N1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Virus_A(H1N1)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Virus_A(H1N1)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Virus_A": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.Virus_AH1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Virus_A(H1)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Virus_A(H1)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Virus_A": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.Virus_AH3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Virus_A(H3)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Virus_A(H3)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Virus_A": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.virus_A_non_sous_typé": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Virus_A_NonSousTypé"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "virus A non sous typé": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "virus A non sou typé": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Virus_A_NonSousTypé": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "worm a non sou typé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "disease a non sou typé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "germ a non sou typé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "illness a non sou typé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "infection a non sou typé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "sickness a non sou typé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "bug a non sou typé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.positif_B": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Positif_B"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "positif B": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Positif_B": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.positif_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Positif_Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "positif total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Positif_Total": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "positif aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "positif overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.négatif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Négatifs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "négatif": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.niveau_propagation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Niveau_Propagation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "niveau propagation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Niveau_Propagation": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "niveau proliferation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "niveau circulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "niveau dissemination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "niveau promulgation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "niveau transmission": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "niveau spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "niveau broadcast": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "niveau procreation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "niveau breeding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "niveau reproduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "Propagation": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024.echantillons_analysé": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "InfluenzaData_2022-2024",
+			          "ConceptualProperty": "Echantillons_Analysés"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "echantillons analysé": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "echantillon analysé": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Echantillons_Analysés": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "kpi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kpi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "kpi.total_echantillons_analysés": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "KPI",
+			          "ConceptualProperty": "Total_Echantillons_Analysés"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total echantillons analysés": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Echantillons_Analysés": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate echantillon analysé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall echantillon analysé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "kpi.total_positif_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "KPI",
+			          "ConceptualProperty": "Total_Positif_Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total positif total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Positif_Total": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "total positif aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total positif overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aggregate positif total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall positif total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "kpi.taux_positivité": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "KPI",
+			          "ConceptualProperty": "Taux_Positivité"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taux positivité": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Taux_Positivité": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "kpi.total_echantillon_reçu": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "KPI",
+			          "ConceptualProperty": "Total_Echantillon_Reçu"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total echantillon reçu": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Echantillon_Reçu": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate echantillon reçu": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall echantillon reçu": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "kpi.cas_selectionnés": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "KPI",
+			          "ConceptualProperty": "Cas_Selectionnés"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cas selectionnés": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Cas_Selectionnés": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "kpi.total_cas_sous_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "KPI",
+			          "ConceptualProperty": "Total_Cas_SousType"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cas sous type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Cas_SousType": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cas sous type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total cas sou category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "total cas sou genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "total cas sou manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "total cas sou variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "cas sou category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "cas sou genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "cas sou manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "cas sou variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total cas sou brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "total cas sou class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "datum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datum": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "datum.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "datum.année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "datum.mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mois": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "datum.mois_complet": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "Mois_Complet"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "mois complet": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Mois_Complet": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.numero_mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "Numero_Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Numero_Mois": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "datum.annéemois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "Année-Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année-mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "année mois": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "datum.semaine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Datum",
+			          "ConceptualProperty": "Semaine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "semaine": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sous_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SousTypes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sous type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sou type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "SousTypes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sou category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sou genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sou manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sou variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sou brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sou class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "sous_type.soustype": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SousTypes",
+			          "ConceptualProperty": "Sous-Type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sous-type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sou-type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sou-category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sou-genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sou-manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sou-variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sou-brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sou-class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sou-kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sou-style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sou-form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sou-grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "influenza_data_2022_2024_in_OMS_region": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.OMS_region": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.OMS_region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "influenza_data_2022_2024.OMS_region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.OMS_region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_are_in_OMS_regions"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_OMS_region": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.OMS_region": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.OMS_region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.OMS_region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_OMS_regions"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_saison": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.saison": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.saison"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.saison"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_saison"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_hemisphere": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.hemisphere": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.hemisphere"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.hemisphere"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_hemispheres"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_pay": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.pay": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.pay"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.pay"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_pays"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_date_observation": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.date_observation": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.date_observation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.date_observation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_date_observations"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_provenance": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.provenance": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.provenance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.provenance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_provenances"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_echantillons_reçus": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.echantillons_reçus": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.echantillons_reçus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.echantillons_reçus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_echantillons_reçuses"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_Virus_AH1N1": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.Virus_AH1N1": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.Virus_AH1N1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.Virus_AH1N1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_Virus_AH1N1"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_Virus_AH1": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.Virus_AH1": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.Virus_AH1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.Virus_AH1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_Virus_AH1"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_Virus_AH3": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.Virus_AH3": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.Virus_AH3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.Virus_AH3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_Virus_AH3"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_virus_A_non_sous_typé": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.virus_A_non_sous_typé": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.virus_A_non_sous_typé"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.virus_A_non_sous_typé"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_virus_A_non_sous_typé"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_positif_B": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.positif_B": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.positif_B"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.positif_B"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_positif_B"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_positif_total": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.positif_total": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.positif_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.positif_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_positif_totals"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_négatif": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.négatif": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.négatif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.négatif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_négatifs"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_niveau_propagation": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.niveau_propagation": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.niveau_propagation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.niveau_propagation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_niveau_propagations"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_echantillons_analysé": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "influenza_data_2022_2024.echantillons_analysé": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024.echantillons_analysé"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024.echantillons_analysé"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_echantillons_analysé"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_kpi_total_echantillons_analysés": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "kpi.total_echantillons_analysés": {
+			          "Target": {
+			            "Entity": "kpi.total_echantillons_analysés"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "kpi.total_echantillons_analysés"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_total_echantillons_analysés"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_kpi_total_positif_total": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "kpi.total_positif_total": {
+			          "Target": {
+			            "Entity": "kpi.total_positif_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "kpi.total_positif_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_total_positif_total"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_kpi_taux_positivité": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "kpi.taux_positivité": {
+			          "Target": {
+			            "Entity": "kpi.taux_positivité"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "kpi.taux_positivité"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_taux_positivité"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_kpi_total_echantillon_reçu": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "kpi.total_echantillon_reçu": {
+			          "Target": {
+			            "Entity": "kpi.total_echantillon_reçu"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "kpi.total_echantillon_reçu"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_total_echantillon_reçu"
+			        }
+			      ]
+			    },
+			    "kpi_has_cas_selectionnés": {
+			      "Binding": {
+			        "ConceptualEntity": "KPI"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "kpi": {
+			          "Target": {
+			            "Entity": "kpi"
+			          }
+			        },
+			        "kpi.cas_selectionnés": {
+			          "Target": {
+			            "Entity": "kpi.cas_selectionnés"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "kpi"
+			            },
+			            "Object": {
+			              "Role": "kpi.cas_selectionnés"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "kpis_have_cas_selectionnés"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_kpi_total_cas_sous_type": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "kpi.total_cas_sous_type": {
+			          "Target": {
+			            "Entity": "kpi.total_cas_sous_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "kpi.total_cas_sous_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_total_cas_sous_type"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_kpi_test": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "kpi.test": {
+			          "Target": {
+			            "Entity": "kpi.test"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "kpi.test"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_test"
+			        }
+			      ]
+			    },
+			    "datum_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.date": {
+			          "Target": {
+			            "Entity": "datum.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_dates"
+			        }
+			      ]
+			    },
+			    "datum_has_année": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.année": {
+			          "Target": {
+			            "Entity": "datum.année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_années"
+			        }
+			      ]
+			    },
+			    "datum_has_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.mois": {
+			          "Target": {
+			            "Entity": "datum.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_moises"
+			        }
+			      ]
+			    },
+			    "datum_has_numero_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.numero_mois": {
+			          "Target": {
+			            "Entity": "datum.numero_mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.numero_mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_numero_moises"
+			        }
+			      ]
+			    },
+			    "datum_has_annéemois": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.annéemois": {
+			          "Target": {
+			            "Entity": "datum.annéemois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.annéemois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_annéemoises"
+			        }
+			      ]
+			    },
+			    "datum_has_semaine": {
+			      "Binding": {
+			        "ConceptualEntity": "Datum"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          }
+			        },
+			        "datum.semaine": {
+			          "Target": {
+			            "Entity": "datum.semaine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "datum.semaine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_semaines"
+			        }
+			      ]
+			    },
+			    "sous_type_has_soustype": {
+			      "Binding": {
+			        "ConceptualEntity": "SousTypes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sous_type": {
+			          "Target": {
+			            "Entity": "sous_type"
+			          }
+			        },
+			        "sous_type.soustype": {
+			          "Target": {
+			            "Entity": "sous_type.soustype"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sous_type"
+			            },
+			            "Object": {
+			              "Role": "sous_type.soustype"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sous_types_have_soustypes"
+			        }
+			      ]
+			    },
+			    "influenza_data_2022_2024_has_datum": {
+			      "Binding": {
+			        "ConceptualEntity": "InfluenzaData_2022-2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "influenza_data_2022_2024": {
+			          "Target": {
+			            "Entity": "influenza_data_2022_2024"
+			          }
+			        },
+			        "datum": {
+			          "Target": {
+			            "Entity": "datum"
+			          },
+			          "Nouns": [
+			            {
+			              "date observation": {
+			                "State": "Generated"
+			              }
+			            },
+			            {
+			              "observation": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "influenza_data_2022_2024"
+			            },
+			            "Object": {
+			              "Role": "datum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "influenza_data_2022_2024_have_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "datum"
+			            },
+			            "Object": {
+			              "Role": "influenza_data_2022_2024"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_influenza_data_2022_2024"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

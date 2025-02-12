@@ -1,0 +1,99 @@
+table KPI
+	lineageTag: fff1dc02-57ee-431f-9f0a-76f800fbc8ae
+
+	measure Total_Echantillons_Analysés = ```
+			sum('InfluenzaData_2022-2024'[Echantillons_Analysés])
+			
+			```
+		formatString: 0.00
+		lineageTag: 4fc1c127-92c3-490c-961d-a17da6ab1c64
+
+	measure Total_Positif_Total = SUM('InfluenzaData_2022-2024'[Positif_Total])
+		formatString: 0
+		lineageTag: ded5132b-85eb-4ec3-bab5-11a0ca52be9c
+
+	measure Taux_Positivité = ```
+			
+			DIVIDE([Total_Positif_Total], [Total_Echantillons_Analysés], 0) 
+			
+			
+			```
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 809c4617-7d58-4d44-b886-bc47ea768bfa
+
+	measure Total_Echantillon_Reçu = sum('InfluenzaData_2022-2024'[Echantillons_Reçus])
+		formatString: 0.00
+		lineageTag: 2d038637-a8cf-4aea-84a4-6eaf251b4e01
+
+	measure Cas_Selectionnés = ```
+			
+			VAR SelectionUtilisateur = SELECTEDVALUE(SousTypes[Sous-Type])
+			RETURN
+			SWITCH(
+			    SelectionUtilisateur,
+			    "Virus_A(H1N1)", SUM('InfluenzaData_2022-2024'[Virus_A(H1N1)]),
+			    "Virus_A(H3)", SUM('InfluenzaData_2022-2024'[Virus_A(H3)]),
+			    "Virus_A_NonSousTypé", SUM('InfluenzaData_2022-2024'[Virus_A_NonSousTypé]),
+			    "Positif_B", SUM('InfluenzaData_2022-2024'[Positif_B]),
+			    BLANK()
+			)
+			
+			```
+		formatString: 0
+		lineageTag: 491e26df-67c1-44ba-b090-caad96e2f1e6
+
+	measure Total_Cas_SousType = ```
+			
+			SUM('InfluenzaData_2022-2024'[Virus_A(H1N1)]) +
+			SUM('InfluenzaData_2022-2024'[Virus_A(H3)]) +
+			SUM('InfluenzaData_2022-2024'[Virus_A_NonSousTypé]) +
+			SUM('InfluenzaData_2022-2024'[Positif_B])
+			
+			```
+		formatString: 0
+		lineageTag: 5102a0ef-5c07-4641-ae08-5ac820206035
+
+	measure Ratio_Analysés_Reçus = ```
+			
+			DIVIDE([Total_Echantillons_Analysés], [Total_Echantillon_Reçu], 0) 
+			
+			```
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 38a034c8-fca9-43fb-abbd-139939ac82ad
+
+	measure Taux_Positivité_Variation = ```
+			
+			VAR TauxActuel = [Taux_Positivité] 
+			
+			VAR TauxPrecedent = 
+			    CALCULATE(
+			        [Taux_Positivité], 
+			        ALL(Datum),  
+			        DATEADD(Datum[Date], -1, YEAR)  
+			    )
+			
+			VAR Variation = 
+			    IF(ISBLANK(TauxPrecedent), 0, (TauxActuel - TauxPrecedent) / TauxPrecedent )
+			
+			RETURN 
+			IF( ISBLANK(TauxActuel), BLANK(), Variation )
+			
+			```
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: a51934c6-e5d4-4db3-b5f9-280ec131e408
+
+	partition KPI = m
+		mode: import
+		queryGroup: Main
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [KPI = _t]),
+				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"KPI", type text}}),
+				    #"Colonnes supprimées" = Table.RemoveColumns(#"Type modifié",{"KPI"})
+				in
+				    #"Colonnes supprimées"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

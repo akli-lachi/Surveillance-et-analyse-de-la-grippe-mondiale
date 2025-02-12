@@ -1,0 +1,4 @@
+relationship 8a817e09-b62e-db1e-f19c-780e3051b77c
+	fromColumn: InfluenzaData_2022-2024.Date_Observation
+	toColumn: Datum.Date
+

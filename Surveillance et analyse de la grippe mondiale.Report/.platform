@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Surveillance et analyse de la grippe mondiale"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "759826a4-f107-4111-a8e2-965dccfd3296"
+  }
+}
